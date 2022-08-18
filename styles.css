@@ -13,16 +13,16 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin-top: 5%;
 }
 
 .title {
-    padding-left: 300px;
+    margin-left: 20%;
 }
 
 .description {
     max-width: 440px;
-    padding-right: 300px;
+    margin-right: 20%;
 }
 
 h1 {
@@ -40,34 +40,45 @@ p {
     font-weight: 400;
 }
 
-div {
-    display: block;
-}
-
-
 .images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    justify-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 75%;
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
-img {
-    max-width: 100%;
-    width: 264px;
-    height: 347px;
+.images div {
+    height: 30%;
+    width: 17%;
+    margin-right: 9%;
 }
-
-.images {
-    position: relative;
-}
-
 
 
 .member-name {
     margin-top: 1px;
     font-weight: 600;
     font-size: 18px;
+}
+
+.member-position {
+    width: 10%;
+    position: absolute;
+    transform: rotate(90deg);
+    font-family: serif;
+    margin-left: 6.7%;
+    margin-top: 4.6%;
+}
+
+.person {
+    margin-top: 10%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 footer {
